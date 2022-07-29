@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2475352a.css",
+    "main.js": "/portfolio/static/js/main.af6b74cd.js",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/diploma-asincronismo-js-2019.jpg": "/portfolio/static/media/diploma-asincronismo-js-2019.5806d894cfebac4a0e9e.jpg",
+    "static/media/diploma-ecmascript-6.jpg": "/portfolio/static/media/diploma-ecmascript-6.12e396a10bb9fb10b585.jpg",
+    "static/media/imagen2.jpg": "/portfolio/static/media/imagen2.e630fd518b286a5cf873.jpg",
+    "static/media/diploma-react-patrones-render.jpg": "/portfolio/static/media/diploma-react-patrones-render.a41a4b75e3d118d38f30.jpg",
+    "static/media/diploma-react-estado.jpg": "/portfolio/static/media/diploma-react-estado.4916ec9ebe69b21169a5.jpg",
+    "static/media/diploma-oop.jpg": "/portfolio/static/media/diploma-oop.7ef4acf762a29f17ca71.jpg",
+    "static/media/diploma-npm.jpg": "/portfolio/static/media/diploma-npm.6aa9d663a2de5813b6a5.jpg",
+    "static/media/diploma-bd.jpg": "/portfolio/static/media/diploma-bd.324bed63365f5ae16c58.jpg",
+    "static/media/diploma-javascript-navegador.jpg": "/portfolio/static/media/diploma-javascript-navegador.3fd0327babb906a7ad76.jpg",
+    "static/media/diploma-scope.jpg": "/portfolio/static/media/diploma-scope.e004a31e792f0e60bc92.jpg",
+    "static/media/diploma-javascript-practico-2021.jpg": "/portfolio/static/media/diploma-javascript-practico-2021.18c939d6cb33ae27520e.jpg",
+    "static/media/diploma-dom.jpg": "/portfolio/static/media/diploma-dom.09aeff2e3a29ac445284.jpg",
+    "static/media/diploma-frameworks-javascript.jpg": "/portfolio/static/media/diploma-frameworks-javascript.157b2e1721e5d0ff2457.jpg",
+    "static/media/diploma-html-css.jpg": "/portfolio/static/media/diploma-html-css.04695c3734a08a6cb786.jpg",
+    "static/media/diploma-react.jpg": "/portfolio/static/media/diploma-react.95aa76bfa41c95a92962.jpg",
+    "static/media/diploma-frontend-developer.jpg": "/portfolio/static/media/diploma-frontend-developer.310b5a45d0de9734ebfa.jpg",
+    "static/media/diploma-git-github.jpg": "/portfolio/static/media/diploma-git-github.0f5a2622e89f99a72954.jpg",
+    "static/media/me-about.jpeg": "/portfolio/static/media/me-about.d7d3bbdab9613d597a80.jpeg",
+    "static/media/me.png": "/portfolio/static/media/me.c610193e0378f0101acb.png",
+    "index.html": "/portfolio/index.html",
+    "main.2475352a.css.map": "/portfolio/static/css/main.2475352a.css.map",
+    "main.af6b74cd.js.map": "/portfolio/static/js/main.af6b74cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2475352a.css",
+    "static/js/main.af6b74cd.js"
+  ]
+}
