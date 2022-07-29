@@ -9,7 +9,7 @@ function Information( { setStateActive } ){
                 <h3>Mi nombre es:</h3>
             </div>
             <div className="item-2">
-                <h1>Marcelo Colmánasdfasdf</h1>
+                <h1>Marcelo Colmánas</h1>
             </div>
             <div className="item-3">
                 <h2>Frontend Developer</h2>
