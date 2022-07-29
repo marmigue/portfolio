@@ -1,0 +1,80 @@
+
+#contact{
+    width: 100%;
+}
+
+.container__contact{
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container__sended{
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.form__container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+
+.input{
+    color: black;
+    padding: 0.8rem;
+    border-radius: var(--border-radius);
+}
+
+
+textarea{
+    resize: none;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+/*---------------------- Mediaqueries ---------------------------*/
+
+@media screen and ( max-width : 1024px ) {
+    .form__container{
+        width: 65%;
+    }
+}
+
+@media screen and ( max-width : 850px ) {
+    .form__container{
+        width: 85%;
+    }
+    .container__contact{
+        width: 80%;
+    }
+
+    .container__sended{
+        width: 80%;
+    }
+}
+
+@media screen and ( max-width : 650px ) {
+    .form__container{
+        width: 95%;
+    }
+
+    .container__sended{
+        width: 95%;
+    }
+}

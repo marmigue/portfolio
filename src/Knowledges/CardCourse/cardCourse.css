@@ -1,0 +1,85 @@
+/*---------------------- Card and image --------------------*/
+.card{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--transparent-black);
+    backdrop-filter: var(--difumination);
+    border-radius: var(--border-radius);
+}
+
+.image{
+    width: 80%;
+    border-radius: var(--border-radius);
+}
+
+/*------------------------- Modal ------------------------*/
+
+.modal__background{
+    display: flex;
+    gap: 2rem;
+    background: rgba( 0, 0, 0, .8 );
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+}
+
+.image__modal{
+    width: 100%;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+}
+
+.withOutButton{
+    width: 3rem;
+}
+
+/*------------------------ hover --------------------------*/
+
+.card:hover{
+    cursor: pointer;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.change__image:hover{
+    cursor: pointer;
+}
+
+
+/*-------------------- Media queries -----------------------*/
+
+@media screen and (max-width : 700px) {
+    .card{
+        width: 200px;
+        height: 166px;
+    }
+
+}
+
+@media screen and (max-width : 400px) {
+    .card{
+        width: 120px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,140 @@
+/*----------------- Flex containners configurations --------------*/
+
+.about__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+/*---------------------- Cards Configuration --------------------*/
+
+.card__container{
+    display: flex;
+    justify-content: center;
+    gap: 4rem   
+}
+
+.qualities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.about__card{
+    width: 16rem;
+    height: 16rem;
+    background-color: var(--transparent-black);
+    backdrop-filter: var(--difumination);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon__part{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.text__part{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+/*--------------- All about text and  tittle ------------------*/
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.text__about{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    width: 70%  ;
+}
+
+
+/*----------------- Image and button -------------------------*/
+
+.button__about{
+    display: flex;
+    justify-content: center;
+}
+
+.about__me{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+    background: linear-gradient( 45deg, transparent, var(--color-primary), transparent );
+}
+
+.me__secundary{
+    border-radius: 24px;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: 0.4s;
+    width: 30rem;
+    height: 30rem;
+}
+
+.me__secundary:hover{
+    transform: rotate(0deg);
+}
+
+.about__content{
+    display: flex;
+    width: 50%;
+    gap: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------- Media queries -----------------------*/
+
+@media screen and ( max-width: 1024px ) {
+    .about__container{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .about__content{
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width: 550px ) {
+    .about__container{
+        flex-direction: column;
+    }
+
+    .card__container{
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+
+    .text__about{
+        width: 90%;
+    }
+
+    .about__me{
+        width: 200px;
+        height: 200px;
+    }
+
+    .me__secundary{
+        width: 200px;
+        height: 200px;
+    }
+}
