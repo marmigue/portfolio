@@ -60,7 +60,7 @@ function CardCourse(
                             <AiFillCloseCircle className="icon" size="3rem" onClick={ closeModal }/>
                         </div>
                         { 
-                            (controlerModal < 16) //agregar un numero mayor cuando se agrega una card nueva
+                            (controlerModal < 18) //agregar un numero mayor cuando se agrega una card nueva
                             ? 
                                 (
                                     <BsArrowRightCircleFill 

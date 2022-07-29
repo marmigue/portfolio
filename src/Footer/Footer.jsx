@@ -14,7 +14,7 @@ function Footer(){
             <p>Creado por:</p>
             <p>Marmigue96@gmail.com</p>
             <p>Visita el código en mi perfil de github:</p>
-            <p><a href="https://github.com/marmigue/Presentacion" rel="noreferrer" target="_blank"><BsGithub size="3rem"/></a></p>
+            <p><a href="https://github.com/marmigue/portfolio" rel="noreferrer" target="_blank"><BsGithub size="3rem"/></a></p>
         </footer>
     );
 }

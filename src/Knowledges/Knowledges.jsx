@@ -18,6 +18,8 @@ import NPM from "../assets/cursos/diploma-npm.jpg";
 import DOM from "../assets/cursos/diploma-dom.jpg";
 import REACTINTRO from "../assets/cursos/diploma-react.jpg";
 import REACTPATR from "../assets/cursos/diploma-react-patrones-render.jpg";
+import TYPESCRIPT from "../assets/cursos/diploma-typescript.jpg";
+import ANGULAR from "../assets/cursos/diploma-angular.jpg";
 
 
 function Knowledges(){
@@ -123,7 +125,7 @@ function Knowledges(){
                     setOpenImage={ setOpenImage }
                     controlerModal={ 12 }
                 />
-                <CardCourse 
+                <CardCourse
                     image={ REACTINTRO }
                     openModal={ openModal } 
                     setOpenModal={setOpenModal} 
@@ -154,6 +156,22 @@ function Knowledges(){
                     openImage={ openImage }
                     setOpenImage={ setOpenImage }
                     controlerModal={ 16 }
+                />
+                <CardCourse 
+                    image={ TYPESCRIPT }
+                    openModal={ openModal } 
+                    setOpenModal={setOpenModal} 
+                    openImage={ openImage }
+                    setOpenImage={ setOpenImage }
+                    controlerModal={ 17 }
+                />
+                <CardCourse 
+                    image={ ANGULAR }
+                    openModal={ openModal } 
+                    setOpenModal={setOpenModal} 
+                    openImage={ openImage }
+                    setOpenImage={ setOpenImage }
+                    controlerModal={ 18 }
                 />
             </div>
         </section>
