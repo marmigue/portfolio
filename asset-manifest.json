@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2475352a.css",
-    "main.js": "/portfolio/static/js/main.7b0156e1.js",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.eb5ac77e5c2375a7cec2.pdf",
+    "main.js": "/portfolio/static/js/main.f243e690.js",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.655a17c35895c27275ac.pdf",
     "static/media/diploma-asincronismo-js-2019.jpg": "/portfolio/static/media/diploma-asincronismo-js-2019.5806d894cfebac4a0e9e.jpg",
     "static/media/diploma-ecmascript-6.jpg": "/portfolio/static/media/diploma-ecmascript-6.12e396a10bb9fb10b585.jpg",
     "static/media/imagen2.jpg": "/portfolio/static/media/imagen2.e630fd518b286a5cf873.jpg",
@@ -26,10 +26,10 @@
     "static/media/me.png": "/portfolio/static/media/me.c610193e0378f0101acb.png",
     "index.html": "/portfolio/index.html",
     "main.2475352a.css.map": "/portfolio/static/css/main.2475352a.css.map",
-    "main.7b0156e1.js.map": "/portfolio/static/js/main.7b0156e1.js.map"
+    "main.f243e690.js.map": "/portfolio/static/js/main.f243e690.js.map"
   },
   "entrypoints": [
     "static/css/main.2475352a.css",
-    "static/js/main.7b0156e1.js"
+    "static/js/main.f243e690.js"
   ]
 }
